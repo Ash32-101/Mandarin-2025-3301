@@ -3,58 +3,163 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>For Noe</title>
+    <title>Learn Mandarin - OP-SEC-3301</title>
     <style>
         body {
-            background-color: #121212;
-            color: #d4a4ff;
             font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 20px;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow-y: auto;
+            flex-direction: column;
         }
         .container {
-            max-width: 600px;
-            margin: auto;
+            width: 100%;
+            max-width: 100%;
             padding: 20px;
-            background: rgba(255, 255, 255, 0.1);
             border-radius: 10px;
-            box-shadow: 0 0 15px rgba(187, 134, 252, 0.5);
+            overflow-y: auto;
         }
         h1 {
-            color: #bb86fc;
-            font-size: 32px;
-            animation: glow 1.5s infinite alternate;
+            text-align: center;
+            font-size: 3rem;
+            color: #a855f7;
+            text-shadow: 0 0 10px #a855f7, 0 0 20px #a855f7, 0 0 30px #a855f7, 0 0 40px #a855f7;
         }
-        @keyframes glow {
-            0% { text-shadow: 0 0 5px #bb86fc; }
-            100% { text-shadow: 0 0 20px #bb86fc; }
+        .category {
+            margin-bottom: 20px;
+            border: 1px solid #a855f7;
+            border-radius: 5px;
+            overflow: hidden;
+            background-color: #1f1f1f;
         }
-        p {
-            font-size: 18px;
-        }
-        .forever {
-            font-size: 20px;
+        .category-title {
+            background-color: #a855f7;
+            padding: 15px;
+            cursor: pointer;
             font-weight: bold;
-            color: #bb86fc;
-            margin-top: 20px;
+            color: white;
+            text-align: center;
+            font-size: 1.5rem;
+            text-shadow: 0 0 10px #a855f7, 0 0 20px #a855f7, 0 0 30px #a855f7;
         }
-        .loop {
-            animation: fadeLoop 3s infinite alternate;
+        .category-content {
+            display: none;
+            padding: 10px;
+            background-color: #222;
         }
-        @keyframes fadeLoop {
-            0% { opacity: 1; }
-            100% { opacity: 0.5; }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            padding: 8px 0;
+            color: #a855f7;
+            text-shadow: 0 0 5px #a855f7, 0 0 10px #a855f7, 0 0 15px #a855f7;
+            font-size: 1.2rem;
+        }
+        li:hover {
+            text-shadow: 0 0 15px #a855f7, 0 0 25px #a855f7;
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <h1>Thank You, Noe</h1>
-        <p>For everything you've done, for every moment you've been there, I truly appreciate you.</p>
-        <p>I've engraved this "Thank You" on the internet forever.</p>
-        
-        <div class="forever loop">∞ Forever Grateful ∞</div>
+        <h1>Learn Mandarin - OP-SEC-3301</h1>
+
+        <div class="category">
+            <div class="category-title">💖 Valentine's Day</div>
+            <div class="category-content">
+                <ul>
+                    <li>情人节快乐 (Qíngrén jié kuài lè) - Happy Valentine’s Day!</li>
+                    <li>七夕节 (Qīxījié) - Qixi Festival</li>
+                    <li>我爱你 (Wǒ ài nǐ) - I love you</li>
+                    <li>你是我最爱的人 (Nǐ shì wǒ zuì ‘ài de rén) - You’re the one I love the most</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="category">
+            <div class="category-title">🌎 Locations</div>
+            <div class="category-content">
+                <ul>
+                    <li>Dominican Republic - 多明尼加共和国 (Duō míng ní jiā gònghéguó)</li>
+                    <li>New York - 纽约 (Niǔyuē)</li>
+                    <li>Europe - 欧洲 (Ōuzhōu)</li>
+                    <li>Puerto Rico - 波多黎各 (Bōduō lígè)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="category">
+            <div class="category-title">💡 Useful Phrases</div>
+            <div class="category-content">
+                <ul>
+                    <li>My favorite ___ - 我最喜欢的 _______. (Wǒ zuì xǐhuān de)</li>
+                    <li>I have no money - 我没有钱. (Wǒ méiyǒu qián)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="category">
+            <div class="category-title">📅 Days of the Week</div>
+            <div class="category-content">
+                <ul>
+                    <li>Monday - 星期一 (Xīngqī yī)</li>
+                    <li>Tuesday - 星期二 (Xīngqī èr)</li>
+                    <li>Wednesday - 星期三 (Xīngqī sān)</li>
+                    <li>Thursday - 星期四 (Xīngqī sì)</li>
+                    <li>Friday - 星期五 (Xīngqī wǔ)</li>
+                    <li>Saturday - 星期六 (Xīngqī liù)</li>
+                    <li>Sunday - 星期日 (Xīngqī rì)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="category">
+            <div class="category-title">📖 Vocabulary (生詞)</div>
+            <div class="category-content">
+                <ul>
+                    <li>您 (nín) – you (polite and respectful)</li>
+                    <li>好 (hǎo) – good</li>
+                    <li>歲 (suì) – years old (measure word for age)</li>
+                    <li>王 (Wáng) – surname</li>
+                    <li>叫 (jiào) – to be named</li>
+                    <li>什麼 (shénme) – what</li>
+                    <li>名字 (míngzi) – name</li>
+                    <li>是 (shì) – to be</li>
+                    <li>呢 (ne) – question particle</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="category">
+            <div class="category-title">📝 Phrases (知識)</div>
+            <div class="category-content">
+                <ul>
+                    <li>請問 (qǐng wèn) – May I ask…?</li>
+                    <li>貴姓 (guì xìng) – What is your surname?</li>
+                    <li>美國人 (Měiguórén) – American</li>
+                    <li>台灣人 (Táiwānrén) – Taiwanese</li>
+                    <li>你呢 (nǐ ne) – How about you?</li>
+                </ul>
+            </div>
+        </div>
+
+        <script>
+            document.querySelectorAll('.category-title').forEach(title => {
+                title.addEventListener('click', () => {
+                    const content = title.nextElementSibling;
+                    content.style.display = content.style.display === 'block' ? 'none' : 'block';
+                });
+            });
+        </script>
     </div>
 
 </body>
